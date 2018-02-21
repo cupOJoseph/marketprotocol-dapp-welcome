@@ -48,6 +48,11 @@ button{
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 4px;
+
+  /* That cool slow hover animation*/
+  -webkit-transition-duration: 0.6s; /* Safari */
+  transition-duration: 0.6s;
+
 }
 
 button:hover{
